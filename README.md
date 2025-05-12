@@ -1,44 +1,34 @@
-#Plant Disease Detection Using Multi-Model Deep Learning Fusion
+# Plant Disease Detection Using Multi-Model Deep Learning Fusion
 
+This project introduces a deep learning-based system for identifying plant leaf diseases and recommending sustainable organic treatments. It leverages a fusion of three models—Simple CNN, Deep CNN, and EfficientNetB0—to enhance feature extraction and classification accuracy.
 
+## Features
 
+- Multi-model fusion for improved disease detection  
+- Real-time predictions through a web-based interface  
+- Organic pesticide suggestions mapped to detected diseases  
+- Trained using PlantVillage, Plant Leaves, and PlantDoc datasets  
+- Built using TensorFlow and Keras
 
-This project presents a deep learning-based system for detecting plant leaf diseases and recommending sustainable organic treatments. It uses a fusion of three models—Simple CNN, Deep CNN, and EfficientNetB0—to enhance prediction accuracy by capturing both shallow and deep image features.
+## How It Works
 
-Features
-Multi-model fusion for robust plant disease classification
+1. Upload a plant leaf image via the web app  
+2. The image is processed by three parallel CNN branches  
+3. Extracted features are fused and passed through dense layers  
+4. The model predicts the disease and suggests an organic pesticide
 
-Real-time prediction via a user-friendly web interface
+## Tech Stack
 
-Organic pesticide recommendations based on detected disease
+- Python, TensorFlow, Keras  
+- HTML/CSS/JavaScript for frontend  
+- JSON for pesticide mapping
 
-Trained using PlantVillage, Plant Leaves, and PlantDoc datasets
+## Datasets Used
 
-Developed with TensorFlow and Keras
+- **PlantVillage** – clean lab images  
+- **Plant Leaves** – varied lighting and conditions  
+- **PlantDoc** – real-world, noisy images
 
-How It Works
-Users upload an image of a plant leaf via the web app.
+## Objective
 
-The image is processed through three parallel CNN branches.
-
-Extracted features are combined and passed through dense layers.
-
-The system identifies the disease and suggests an organic treatment.
-
-Tech Stack
-Python, TensorFlow, Keras
-
-HTML/CSS/JavaScript (for web app)
-
-JSON (for pesticide mapping)
-
-Datasets Used
-PlantVillage (clean lab images)
-
-Plant Leaves (varied lighting conditions)
-
-PlantDoc (real-world noisy images)
-
-Goal
-To create an accurate, accessible, and eco-friendly tool for supporting sustainable agriculture and smart farming.
-
+Deliver an accessible, accurate, and eco-friendly solution to support sustainable agriculture and smart farming practices.
