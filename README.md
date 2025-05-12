@@ -1,4 +1,4 @@
-# Plant Disease Detection Using Multi-Model Deep Learning Fusion
+# Plant Disease Detection Using Multi-Model Deep Learning Fusion- Team 20
 
 This project introduces a deep learning-based system for identifying plant leaf diseases and recommending sustainable organic treatments. It leverages a fusion of three models—Simple CNN, Deep CNN, and EfficientNetB0—to enhance feature extraction and classification accuracy.
 
